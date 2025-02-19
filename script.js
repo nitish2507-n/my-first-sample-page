@@ -15,3 +15,10 @@ $(document).ready(function() {
         }, 1500);
     }, 500);
 });
+$(document).ready(function(){
+    $(".feature-box").hover(function(){
+        $(this).css("box-shadow", "0 8px 20px rgba(255, 255, 255, 0.4)");
+    }, function(){
+        $(this).css("box-shadow", "0 4px 10px rgba(255, 255, 255, 0.2)");
+    });
+});
